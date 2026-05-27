@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Moja gra</title>
-</head>
-<body style="text-align:center; font-family:Arial;">
-    <h1>Balax 🎮</h1>
-    <p>Kliknij, żeby pobrać:</p>
+    <style>
+        body{
+        background-color: #03f8fc;
+        margin: 5px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        }
 
-    <a href="https://drive.google.com/file/d/1NLpS8cNvz1lh4UcYhYN8D8wcrR-36Fak/view">
-        <button style="font-size:20px; padding:10px;">
-            Pobierz grę
-        </button>
-    </a>
+        .naglowek {
+           color: red;
+           text-align: center;
+        }
+        .sekcja {
+        background-color: red;
+        padding: 10px;
+        margin-bottom: 10px;
+        }
+        .class {
+            border: 10px solid black; /* grubość i kolor ramki */
+            padding: 10px;           /* odstęp tekstu od ramki */
+            display: inline-block;   /* żeby ramka otaczała tylko tekst *
+            background-color: #03f8fc;
+        }
+    </style>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="naglowek">
+    <h1>TEST</h1>
+</div>
+<div class="sekcja">
+    <h1>TEST</h1>
+</div>
+<div class="class">
+    <h1>
+        <b>TEST </b> <u>TEST</u> <i>TEST</i>
+    </h1>
+    <h1>
+        <b><u><i>TEST</i></u></b>
+    </h1>
+
+</div>
 </body>
 </html>
