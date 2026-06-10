@@ -47,7 +47,7 @@ img {
 #header_menu li {
 	display: block;
 	float: left;
-	background: url(menu_separator.png) no-repeat left;
+	background: url(bg_header.png) no-repeat left;
 }
 
 #header_menu a {
